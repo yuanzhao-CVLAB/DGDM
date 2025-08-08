@@ -74,4 +74,4 @@ python main.py
 
 | Dataset   | Google Drive | Baidu Drive     |
 |-----------|--------------|-----------------|
-| MVTec-AD  | [Download]( ) | Download (Soon) |
+| MVTec-AD  | [Download](https://drive.google.com/file/d/1Ag-Gs8pth00m5-1Yk-sEYHvaSB1zFTCh/view?usp=drive_link) | Download (Soon) |
