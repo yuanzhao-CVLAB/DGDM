@@ -62,8 +62,6 @@ VisA
 
 ```
 
-
-
 ## Inference
 Please specify the dataset path MVTec-AD and checkpoints path, To perform inference with checkpoints, please run:
 ```bash
