@@ -64,7 +64,6 @@ class GroundTruthComponent:
         # Compute the fraction of component pixels that are correctly segmented as anomalous.
         return 1.0 - self.index / len(self.anomaly_scores)
 
-
 def trapezoid(x, y, x_max=None):
     """
     This function calculates the definit integral of a curve given by x- and corresponding y-values.

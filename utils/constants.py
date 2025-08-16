@@ -1,4 +1,3 @@
-
 datasets_classes = {
         "visa":['candle', 'capsules', 'cashew',
                 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2',

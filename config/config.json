@@ -13,6 +13,7 @@
   "save_imgs":true,
   "save_vids":false,
   "dropout":0,
+  
   "attention_resolutions":"32,16,8",
   "num_heads":4,
   "num_head_channels":-1,
@@ -30,5 +31,3 @@
   "eval_noisier_t":500,
   "output_dir":"outputs/DGDM"
 }
-
-

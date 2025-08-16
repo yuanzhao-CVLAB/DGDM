@@ -92,7 +92,6 @@ class Upsample(nn.Module):
             x = self.conv(x)
         return x
 
-
 class AttentionBlock(nn.Module):
     """
     An attention block that allows spatial positions to attend to each other.

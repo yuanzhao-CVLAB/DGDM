@@ -1,7 +1,6 @@
 import torch
 import math
 import numpy as np
-
 def lerp_np(x,y,w):
     fin_out = (y-x)*w + x
     return fin_out

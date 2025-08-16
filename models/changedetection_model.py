@@ -175,7 +175,6 @@ class DecoderSegmentation(nn.Module):
         up2 = self.up2(db1)
         cat2 = torch.cat((up2,b3),dim=1)
         db2 = self.db2(cat2)
-
         up3 = self.up3(db2)
         cat3 = torch.cat((up3,b2),dim=1)
         db3 = self.db3(cat3)

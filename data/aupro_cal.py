@@ -102,7 +102,6 @@ def trapezoid(x, y, x_max=None):
     # Return area under the curve using the trapezoidal rule.
     return np.sum(0.5 * (y[1:] + y[:-1]) * (x[1:] - x[:-1])) + correction
 
-
 def collect_anomaly_scores(anomaly_maps, ground_truth_maps):
     """
     Extract anomaly scores for each ground truth connected component as well as anomaly scores for each potential false

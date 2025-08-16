@@ -135,7 +135,6 @@ def main(datasets_type):
     if args["checkpoints"]:
         print("Loading checkpoints:", args["checkpoints"])
         accelerator.load_state(args["checkpoints"], strict=True)
-
     evalute(args, unet_model, seg_model, datasets_type, accelerator)
 
 if __name__ == '__main__':

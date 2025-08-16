@@ -1,7 +1,6 @@
 graphviz==0.8.4
 helpers==0.2.0
 huggingface-hub==0.17.2
-idna==3.4
 imageio==2.26.0
 imgaug==0.4.0
 numpy==1.23.1

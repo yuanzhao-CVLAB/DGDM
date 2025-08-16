@@ -30,7 +30,6 @@ def one_step(noise_scheduler,unet_model, x_0,x_t,  anomaly_mask, control,timeste
     noise = torch.randn_like(x_0)
     if x_t is None:
         x_t = noise_scheduler.add_noise(x_0, noise, timesteps)
-
     pred_prev_sample,pred_x_0,estimate_noise,classes,control = denoise(noise_scheduler,unet_model, x_t, timesteps,control)
     loss = (estimate_noise - noise).square()[(anomaly_mask == 0).repeat(1, x_0.shape[1], 1, 1)].mean()
     class_loss = F.cross_entropy(classes, control["class_idx"], reduction="none")

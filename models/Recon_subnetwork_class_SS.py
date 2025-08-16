@@ -13,7 +13,6 @@ class TimestepBlock(nn.Module):
     """
     Any module where forward() takes timestep embeddings as a second argument.
     """
-
     @abstractmethod
     def forward(self, x, emb):
         """
