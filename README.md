@@ -1,4 +1,4 @@
-# DiffusionAD
+# DGDM
 
 
 ![](imgs/architecture.png)
