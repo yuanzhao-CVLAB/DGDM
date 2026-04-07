@@ -3,14 +3,7 @@
 
 ![](imgs/architecture.png)
 
-**Classification and Calibration: Dual-Guidance Diffusion Model for Mitigating Reconstruction Hallucinations in    Multi-Class Anomaly Detection**
 
-*Yuan Zhao*
-
-[Paper link]( )
-
-##  Introduction
-DGDM is  novel diffusion-based methods. It mitigates reconstruction hallucinations in multi-class anomaly detection by prototype and class-aware guidance.
  
 ## Get Started 
 
@@ -73,3 +66,4 @@ python main.py
 | Dataset   | Google Drive | Baidu Drive     |
 |-----------|--------------|-----------------|
 | MVTec-AD  | [Download](https://drive.google.com/file/d/1Ag-Gs8pth00m5-1Yk-sEYHvaSB1zFTCh/view?usp=drive_link) | Download (Soon) |
+| Real-IAD  | [Download](https://drive.google.com/file/d/1vu-6rmiCrPad_7MW0USpQkvtROv-g0ZO/view?usp=sharing) | Download (Soon) |
